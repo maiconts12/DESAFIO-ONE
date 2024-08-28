@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    color: brown;
+    font-size: 90px;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.sub_destaque {
+    color: yellow;
+    font-size: 70px;
+}
+
+.como_usa {
+    color: dodgerblue;
+    font-size: 35px;
+}
+
+.apresentacao {
+    margin: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra {
+    align-items: center;
+}
+
+.titulo_destaque {
+    font-size: 65px;
+}
+
+.botoes_acao { /* Corrigido para 'botoes_acao' */
+    display: flex;
+    justify-content: flex-start; /* Alternativa ao 'initial' */
+    column-gap: 55px;
+}
+
+.botao_de_criptografar,
+.botao_de_copiar,
+.botao_de_descriptografar {
+    color: rgb(0, 0, 0);
+    background-color: lightgrey;
+    width: 175px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10.5px;
+}
+
+.area_de_digitar,
+.resultado {
+    background-color: azure;
+    width: 600px;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 17.9px;
+}
+
+.regra {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.rodape {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+} /* Fechamento adicionado */
